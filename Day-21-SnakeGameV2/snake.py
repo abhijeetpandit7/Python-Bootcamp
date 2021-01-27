@@ -29,6 +29,11 @@ class Snake:
     def grow(self):
         self.add_segment(self.segments[-1].position())
 
+    def reset(self):
+        for segemnt in self.segments:
+            segemnt.goto(1000,1000)
+        self.__init__()
+
     def move(self):
         for i in range(len(self.segments)-1,0,-1):
             position = self.segments[i-1].pos()

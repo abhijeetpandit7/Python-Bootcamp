@@ -1,0 +1,5 @@
+.
+[LETTER]Daily Weather Forecast[LETTER]
+Need not carry umbrella today![SUNNY]
+11:30 AM => Max: 29.87°C[MAX] 
+07:30 AM => Min: 21.27°C[MIN]
